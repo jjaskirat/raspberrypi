@@ -6,21 +6,16 @@ This project implements real-time object detection on a Raspberry Pi using the Y
 
 ## Features
 
-* **Real-time object detection:** Identifies multiple objects in a video stream or static images.
-* **YOLO Algorithm:** Utilizes a pre-trained YOLO model (YOLOv8-n optimized for performance on resource-constrained devices.
-* **Raspberry Pi Optimized:** Designed to run efficiently on Raspberry Pi.
-* **Customizable:** Easily adaptable for different YOLO versions, datasets, and camera inputs.
-* **Modular Code:** Assumes a Python-based implementation, making it easy to understand and modify.
+* **Real-time object detection:** Identifies multiple objects in a video stream.
+* **YOLO Algorithm:** Utilizes a pre-trained YOLO model (YOLOv8-n).
+* **Modular Code:** Different files for Raspberry Pi and Server PC.
 
 ## Hardware Requirements
 
 * **Raspberry Pi:**
-    * Raspberry Pi 3 Model B+ or newer (Raspberry Pi 4 Model B recommended for better performance).
-    * MicroSD Card (16GB or larger, Class 10 or faster).
-    * Power Supply for Raspberry Pi.
-* **Camera:**
-    * Raspberry Pi Camera Module (V1, V2, or HQ).
-    * OR a USB Webcam compatible with Raspberry Pi.
+    * Raspberry Pi 3 Model B+ or newer.
+    * MicroSD Card (16GB or larger).
+    * Raspberry Pi Camera Module.
 
 ## How to run
 * **Raspberry Pi:**
